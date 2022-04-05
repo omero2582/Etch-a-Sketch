@@ -1,6 +1,17 @@
 .container{
     display: flex;
-    width: 800px;
-    height: 800px;
+    /* width: 800px;
+    height: 800px; */
     flex-wrap: wrap;
+    gap: 0px;
+    align-content: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    font-size: 25px;
 }
